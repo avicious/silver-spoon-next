@@ -1,0 +1,25 @@
+.quote p {
+  text-align: center;
+  font-family: var(--font-italiana);
+  font-size: 35px;
+  line-height: 45px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #dcc390;
+}
+
+@media (max-width: 780px) {
+  .quote p {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 500px) {
+  .quote p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

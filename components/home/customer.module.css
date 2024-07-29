@@ -1,0 +1,12 @@
+.customer {
+  border: 2px solid #dcc390;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}

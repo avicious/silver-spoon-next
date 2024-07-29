@@ -1,0 +1,50 @@
+.header {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.desktopNav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 0 1rem;
+  margin: 0;
+}
+
+.desktopNav {
+  padding: 10px 0;
+}
+
+.title a,
+.desktopNav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.title {
+  font-family: var(--font-italiana);
+  font-size: 2.5rem;
+}
+
+.title a {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #dcc390;
+  display: inline-block;
+}
+
+.desktopNav a {
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 200ms ease-in;
+  display: block;
+}
+
+.desktopNav a:hover,
+.desktopNav a.active {
+  background-color: #dcc390;
+}
+
+.active {
+  background-color: #dcc390 !important;
+}

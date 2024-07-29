@@ -1,0 +1,36 @@
+.wrapper h4 {
+  font-family: var(--font-italiana);
+  font-size: 1.4rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desc {
+  max-width: 80%;
+}
+
+.price {
+  font-size: 1.4rem;
+  font-family: var(--font-italiana);
+  margin-right: 10rem;
+  font-weight: bold;
+}
+
+@media (max-width: 780px) {
+  .wrapper h4 {
+    font-size: 1rem;
+  }
+
+  .desc {
+    max-width: 100%;
+  }
+
+  .price {
+    margin-right: 0;
+    font-size: 1rem;
+  }
+}
